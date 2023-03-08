@@ -1,0 +1,400 @@
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.nav-bar-container{
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 97%;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px 25px 5px 25px;
+
+}
+.nav-bar-container div img{
+    height: 50px;
+    width: auto;
+}
+.nav-bar-container div a{
+    color: white;
+    text-decoration: none;
+    transition: .25s;
+}
+.nav-bar-container div a:hover{
+    color: #00a7e1;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+.nav-links li{
+    position: relative;
+    margin-right: 15px;
+}
+
+.services-dropdown{
+    display: none;
+    position: absolute;
+    top: 18px;
+    left:0px;
+}
+.services:hover .services-dropdown{
+    display: block;
+}
+.nav-links li ol{
+    width: 200px;
+    list-style: none;
+    background-color: black;
+    padding: 40px 10px 0px 10px;
+}
+.nav-links li ol li{
+    margin-bottom: 10px;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    transition: .25s;
+}
+.nav-links li a:hover{
+    color: #00a7e1;
+    
+}
+.hero-container{
+    position: relative;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-container div{
+    text-align: center;
+}
+.hero-text{
+    position: absolute;
+    width: 100%;
+}
+.hero-text h1{
+    color: white;
+    font-size: 75px;
+}
+.hero-text button{
+    border: solid 1px white;
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    font-size: 30px;
+    padding: 5px 20px 5px 20px;
+}
+.image-buttons{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+}
+.image-buttons a{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 350px;
+    text-decoration: none;
+    
+}
+.image-buttons a div{
+    background-color: black;
+    padding: 10px;
+    display: none;
+    transition: .5s;
+}
+.image-buttons a:hover div{
+    display: block;
+}
+.image-buttons a div p{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.digital-marketing-text{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.digital-marketing-text div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto
+}
+.digital-marketing-text div p{
+    color: #1185bd;
+    font-weight: bold;
+}
+.digital-marketing-text div h1{
+    color: #919191;
+}
+.digital-marketing-text div button{
+    border: solid 1px black;
+    background-color: rgba(255, 0, 0, 0);
+    color: black;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.transition-image-buttons{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.transition-image-buttons a{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border: solid 1px white;
+    font-weight: bold;
+    height: 400px;
+    padding: 0px 15px 15px 50px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+.tran-button{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+.slide-in-message{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.slide-in-message div{
+    width: 40%;
+}
+.slide-in-message div img{
+    height: 350px;
+    width: auto;
+}
+.slide-in-message div h1{
+    font-size: 45px;
+}
+.slide-in-message div p{
+    font-size: 20px;
+}
+.slide-in-message div button{
+    border: solid 1px black;
+    background-color: rgba(255, 0, 0, 0);
+    color: black;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.big-blue{
+    display: flex;
+    justify-content: center;
+    background-image: url("images/Screenshot (303).png");
+    align-items: center;
+    background-size: cover;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    transition: .5s;
+}
+.big-blue:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/Screenshot (303).png");
+}
+
+.big-blue div{
+    width: 45%;
+}
+.big-blue div h1{
+    font-size: 70px;
+}
+.big-blue div p{
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.big-blue div button{
+    border: solid 1px white;
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.big-blue div ol{
+    padding-top: 40px;
+}
+.big-blue div ol li{
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+.our-mission{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.our-mission h1{
+    color: #919191;
+}
+.our-mission button{
+    border: solid 1px black;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+.image-slider{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    background-color: black;
+}
+.quote-text{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.quote-author{
+    font-weight: bold;
+}
+.image-slider div{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.image-slider div p{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-slider div button{
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 75px;
+    border: solid 2px white;
+    background-color: rgba(0, 0, 0, 0);
+}
+.creatives{
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+}
+.creatives .blue-text{
+    color: #00a7e1;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+.creatives h1{
+    font-size: 70px;
+    margin: 0px;
+}
+.creatives p{
+    width: 65%;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.employee-image{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.employee-image img{
+    width: 70%;
+    height: auto;
+}
+footer{
+    background-color: #011b28;
+    padding: 15px 0px 15px 0px;
+}
+.footer-img{
+    padding-left: 40px;
+}
+.footer-img img{
+    width: 200px;
+    height: auto;
+}
+.footer-links-con{
+    display: flex;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 60%;
+    color: white;
+
+}
+.footer-links div li a{
+    transition: .25s;
+}
+
+.footer-links div li a:hover{
+    color: white;
+}
+
+.footer-form{
+    width: 40%;
+}
+.footer-form button{
+    font-size: 25px;
+    padding: 5px 10px 5px 10px;
+    border: solid 1px white;
+    background-color: #011b28;
+    border-radius: 0px;
+    color: white;
+}
+.footer-form ol{
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-form h1{
+    color: white;
+}
+.footer-form ol li a{
+    color: #6d7173;
+    text-decoration: none;
+}
+
+.form div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form div input{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: solid 1px white;
+    background-color: #011b28;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 5px;
+}
+.footer-links ol{
+    list-style: none;
+}
+.footer-links ol li{
+    margin-bottom: 7.5px;
+}
+.footer-links ol li a {
+    color: #6d7173;
+    text-decoration: none;
+}
+.copyright{
+    background-color: #011b28;
+    color: #6d7173;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.copyright div img{
+    height: 30px;
+    width: auto;
+}
