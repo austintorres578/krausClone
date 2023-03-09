@@ -50,7 +50,7 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 96%;
+    width: 91.5%;
     display: flex;
     background-color: white;
     justify-content: space-between;
@@ -215,6 +215,11 @@ body{
     text-decoration: none;
     font-weight: bold;
 }
+@media(max-width:750px){
+    body .digital-marketing-text div h1{
+        font-size: 30px;
+    }
+}
 @media(max-width:575px){
     body .digital-marketing-text div h1{
         font-size: 25px;
@@ -252,7 +257,10 @@ body{
 @media(max-width:740px){
     body .transition-image-buttons{
         grid-template-columns: 100%;
-        
+    }
+    body .transition-image-buttons a{
+        padding-left: 25px;
+        padding-right: 25px;
     }
     body .transition-image-buttons a{
         height: fit-content;
@@ -269,7 +277,7 @@ body{
     flex-direction: column;
     justify-content: end;
     border: solid 1px white;
-    font-weight: bold;
+    font-weight: 450;
     height: 400px;
     padding: 0px 15px 15px 50px;
     font-size: 18px;
@@ -351,6 +359,7 @@ body{
 }
 .slide-in-message div p{
     font-size: 20px;
+    font-weight: 300;
 }
 .slide-in-message div button{
     border: solid 1px black;
@@ -365,6 +374,21 @@ body{
     }
     body .big-blue div{
         width: 95%;
+    }
+    body .big-blue div ol{
+        padding-left: 20px;
+    }
+    
+}
+@media(max-width:650px){
+    body .big-blue div h1{
+        font-size: 55px;
+    }
+    body .big-blue div p{
+        font-size: 20px;
+}
+    body .big-blue div ol li{
+        font-size: 25px;
     }
 }
 .big-blue{
@@ -391,6 +415,7 @@ body{
 .big-blue div p{
     font-size: 22px;
     margin-bottom: 50px;
+    font-weight: 300;
 }
 .big-blue div button{
     border: solid 1px white;
@@ -406,6 +431,12 @@ body{
     margin-left: 10px;
     font-size: 30px;
     margin-bottom: 45px;
+    font-weight: 300;
+}
+@media(max-width:750px){
+    body .our-mission h1{
+        font-size: 30px;
+    }
 }
 .our-mission{
     width: 80%;
@@ -426,7 +457,11 @@ body{
 }
 @media(max-width:845px){
     body .image-slider div{
-        padding-top: 10px;
+        padding-top: 75px;
+    }
+    body .image-slider div img{
+        height: 35px;
+        width: auto;
     }
     body .image-slider div .quote-text{
         width: 70%;
@@ -446,7 +481,9 @@ body{
     font-size: 18px;
     line-height: 1.5;
     font-weight: 500;
+    font-weight: 300;
 }
+
 .quote-author{
     font-weight: bold;
 }
@@ -490,6 +527,7 @@ body{
 }
 .creatives h1{
     font-size: 70px;
+    font-weight: 450;
     margin: 0px;
 }
 .creatives p{
@@ -497,6 +535,7 @@ body{
     font-size: 22px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 300;
 }
 .creative-button{
     padding-bottom: 25px;
@@ -528,6 +567,7 @@ body{
         text-align: center;
         padding-top: 25px;
         padding-bottom: 25px;
+        padding-left: 0px;
     }
     body .footer-links-con{
         flex-direction: column;
@@ -536,6 +576,9 @@ body{
         display: block;
         text-align: center;
         width: 100%;
+    }
+    body .footer-links div ol{
+        padding-left: 0px;
     }
     body .footer-form{
         margin-left: auto;
