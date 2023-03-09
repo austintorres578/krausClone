@@ -456,6 +456,9 @@ body{
     padding: 5px 20px 5px 20px;
 }
 @media(max-width:845px){
+   body .image-slider{
+    padding-top: 10px;
+   }
     body .image-slider div{
         padding-top: 10px;
     }
