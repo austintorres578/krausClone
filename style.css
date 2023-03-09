@@ -54,12 +54,12 @@ body{
     display: flex;
     background-color: white;
     justify-content: space-between;
-    padding: 5px 25px 5px 25px;
+    padding: 5px 25px 5px 15px;
     align-items: center;
     box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.38);
 }
 .mobile-nav-bar-container div img{
-    width: 40px;
+    width: 30px;
     height: auto;
 }
 
@@ -334,7 +334,7 @@ body{
         font-size: 35px;
     }
     body .slide-in-message div img{
-        height: 200px;
+        height: 185px;
         width: auto;
     }
 }
@@ -457,14 +457,14 @@ body{
 }
 @media(max-width:845px){
     body .image-slider div{
-        padding-top: 75px;
+        padding-top: 30px;
     }
     body .image-slider div img{
         height: 35px;
         width: auto;
     }
     body .image-slider div .quote-text{
-        width: 70%;
+        width: 90%;
     }
 }
 .image-slider{
@@ -672,6 +672,10 @@ footer{
 @media(max-width:750px){
     body .copyright{
         flex-direction: column-reverse;
+        
+    }
+    body .copyright div p{
+        text-align: center;
     }
 }
 .copyright{
